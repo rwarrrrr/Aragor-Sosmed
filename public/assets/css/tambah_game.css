@@ -1,0 +1,77 @@
+*{
+	font-family: roboto ;
+}
+body{
+	background-color: #eeeeee;
+}
+.card{
+	position: relative;
+	top: 50px;
+	background-color: white;
+	width: 450px;
+	height: 475px;
+	box-shadow: 3px 5px 10px #0000004a;
+	margin: auto;
+	padding: 0;
+	border-radius: 17px;
+	overflow: hidden;
+}
+.atas{
+	position: absolute;
+	background-color: #ab47bc;
+	top: 0;
+	left:0;
+	right: 0;
+	width: 100%;
+	height: 100px;
+}
+h1{
+	color: white;
+	margin-left: 20px;		
+	margin-top: 35px;
+
+}
+table{
+	color: #ab47bc;
+	position: relative;
+	top:125px;
+	margin: auto;
+	font-size: 16px;
+}
+input[type="submit"]{
+	background-color: #ab47bc;
+	color: white;
+	width: 100px;
+	height: 35px;
+	margin-top: 150px;
+	border-radius: 17px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+	outline: none;
+}
+input[type="submit"]:hover{
+	transform: scale(0.9);
+	transition: 0.3s;
+}
+input[type="submit"]:active{
+	transform: scale(1.1);
+	transition: 0.3s;	
+}
+input[type="text"]{
+	border: 2px solid #ab47bc;
+	border-radius: 17px;
+	outline: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #ab47bc;
+	width: 235px;
+}
+input[type="file"]{
+	background-color: #ab47bc;
+	color: white;
+	padding: 8px;
+	border-radius: 17px;
+}

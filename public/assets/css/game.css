@@ -1,0 +1,75 @@
+.game_menu{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.game_grid{
+	position: relative;
+	margin-top: 105px;
+	margin-left: 60px;
+	display: grid;
+	grid-template-columns: 325px 325px 325px ;
+	grid-template-rows: 180px 180px 180px;
+	column-gap: 15px;
+	grid-row-gap: 15px;
+}
+.game{
+	position: relative;
+	background-color: purple;
+	box-shadow: 3px 5px 10px #0000004a;
+	border-radius: 10px;
+	align-content: center;
+	overflow: hidden;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.game a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.game:hover{
+	transform: scale(0.9);
+	transition: 0.5s;
+}
+.back{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	margin-top: 0px;
+}
+.desc{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+}
+.desc h3{
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+canvas{
+	position: fixed;
+	z-index: -1;
+	display: block;
+}
+.plus_btn{
+	right: 30px;
+	top: 500px;
+	border-radius: 100%;
+	padding: 25px;
+	position: absolute;
+	z-index: 999;
+	background-color: white;
+	box-shadow: 3px 5px 10px #0000004a;
+}
+#plus{
+	transform: scale(1.5);
+}
